@@ -1,0 +1,449 @@
+@font-face {
+	src: url(fonts/Gotham-Thin.otf);
+	font-family: Gotham-Thin;
+}
+@font-face {
+	src: url(fonts/Gotham-Bold.otf);
+	font-family: Gotham-Bold;
+}
+@font-face {
+	src: url(fonts/Gotham-Book.otf);
+	font-family: Gotham-Book;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    background-color: #fff;
+}
+.bg-blue {
+	background-color:#11367b;
+}	
+.header {
+    min-height: 70px;
+	padding: 20px 20px 0 20px;
+}
+.header-left {
+    padding-top: 27.0px;
+}
+.logo-cont-sm {
+	display: inline-block;
+    width: 211px;
+    height: 36px;
+    padding: 0;
+    margin-right: 9px;
+}
+.logo-cont-sm .svg-logo {
+    height: auto;
+	width:100%;
+}
+.svg-logo img {
+	vertical-align: middle;
+}
+.header-important {
+    position: relative;
+    top: 5.9px;
+	font-size: 16px;
+    color: #032C6B;
+    white-space: nowrap;
+    font-family: Gotham-Book,sans-serif;
+}
+b, strong {
+    font-weight: bold;
+}
+.header-right {
+    padding-top: 15.0px;
+}
+.header-right ul li {
+	display: inline-block;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 0;
+}
+.header-right ul li i {
+	color: #49A01D;
+}
+
+h1 {
+	font-size:36px;
+	color: #fff;
+	font-family: Gotham-Thin;
+    line-height: 1em;
+}
+h2 {
+	font-size:24px;
+	color: #fff;
+	font-family: Gotham-Book;
+	margin:0px;
+	padding:0px;
+}
+h3 {
+	font-size:16px;
+	color: #fff;
+	font-family: Gotham-Book;
+	margin:0px;
+	padding:0px;	
+	font-weight:bold;
+	display:block;
+}
+.main {
+	min-height:570px;
+	background-color:#11367b;
+	color:#fff;
+}
+.glow {
+	min-height: 570px;
+	background: url(../images/glow.png) 50% 50% no-repeat;
+	padding: 20px;
+}
+.forms {
+	padding:0px;
+	margin: 40px 0 0 0;
+}
+
+.forms .btn-circle.btn-xs,.btn-circle.btn-xs {
+    width: 30px;
+    height: 30px;
+    padding: 4px 10px;
+    font-size: 9.87pt;
+    border-radius: 50%;
+    font-family: Gotham-Bold,sans-serif;
+	
+}
+
+.form-input-holder {
+	padding:10px; 
+	background-color:#fff; 
+	border-radius:25px;
+	height:50px; 
+	width:90%;
+	margin: 15px 0;
+}
+
+.form-input-holder input {
+	height: 30px;
+	border: none;
+	background-color: #fff;
+	font-size: 15px;
+}
+
+.form-input-holder input ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+.form-input-holder button {
+	background-color:#fff;
+	color: #777;
+	text-align:left;
+	width: 100%;
+	font-size: 15px;
+	opacity:1;
+	line-height: 15px;'
+}
+
+.form-input-holder button .carets {
+	display: block;
+    float: right;
+	color: #a5a2a2;
+	font-size: 15px;
+}
+
+#categories {
+    border-radius: 15px;
+    width: 100%;
+    min-height: 200px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 50px;
+	font-family: Gotham-Book;
+	padding:10px;
+	color: #a5a2a2;
+	font-size: 14px;
+	z-index: 1;
+}
+
+.category-list  {
+	list-style: none;
+	margin-left:-40px;
+}
+.category-list li {
+	padding: 0 15px;
+}
+
+.category-list li:hover {
+	background: #e6f3ff;
+	font-weight: bolder;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#other-cat, .review-link {
+	cursor: pointer;
+}
+
+.reviews {
+	padding:10px;
+	margin: 10px 0 0 0;
+}
+
+.reviews h3 {
+	font-size: 20px;
+	font-family: Gotham-Thin;
+	font-wight: normal;
+}
+.reviews .lawyers  {
+	width:100%;
+	height: 200px;
+	margin-top:20px;
+}
+.reviews .lawyers .lawyer-info {
+	min-height: 110px;
+}
+
+.reviews .lawyers .lawyer-info p {
+	font-size:13px;
+	line-height:12px;
+	margin-bottom:10px;
+}
+
+.reviews .lawyers .lawyer-info p span {
+	font-size:11px;
+	color: #dbdbdb;
+}
+
+.reviews .lawyers .lawyer-content {
+	min-height: 110px;
+}
+
+.img-lawyer {
+	height:62px;
+	width: 62px;
+	
+}
+
+.reviews .lawyers .lawyer-content p {
+	font-size:11px;
+}
+
+p.description {
+	font-style: italic;
+	color: #dbdbdb;
+}
+
+.reviews .lawyers .lawyer-content p span {
+	font-size:11px;
+	color: #fbd243;
+	
+}
+.review-container {
+	width: 100%;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+hr {
+	color:#4e8cba;
+	width:350px;
+}
+.star-rating,  .star-rating2{
+	font-size: 11px;
+    color: #fbd243;
+}
+.star-rating {
+	margin-left: 20px;
+}
+.footer {
+	padding: 20px;
+}
+.footer .footer-logo-container p {
+	font-size: 11px;
+    color: #032C6B;
+    white-space: nowrap;
+    font-family: Gotham-Book,sans-serif;
+}
+
+.list-footer li {
+	display: inline-block;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 0;
+	color:#9ba4ab;
+	font-size:12px;
+	font-family: Gotham-Book,sans-serif;
+}
+
+ .fa-1 {
+	font-size: 7px;
+ 	color:#9ba4ab;
+ 	margin: 0px 10px;
+}
+
+.copyright {
+	margin-top: 70px;
+	color: #9ba4ab;
+	font-size:11px;
+	text-align:center;
+}
+
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 132%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  color:#000;
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+.black {
+	color:#000;
+}
+/* The Modal (background) */
+.mymodal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 180px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 10px;	
+  width: 50%;
+  color: #a5a2a2;
+  font-family: Gotham-Book,sans-serif;
+  font-size: 12px;
+  height: 370px;	
+}
+.mystep3, .mystep4{
+	width: 50%;
+	height: 370px;
+	overflow: auto;
+}
+.mystep5 {
+	width: 35%;
+	height: 370px;
+	overflow: auto;
+}
+.modal-content .mystep3-content, .modal-content .mystep4-content {
+	margin-top: 20px;
+	
+}
+.modal-content .mystep3-content input {
+	margin-right: 5px;
+}
+.modal-content .mystep3-content div {
+	margin-top: 20px;
+}
+.modal-content ul {
+	list-style: none;
+	margin-left:-50px;
+	color: #0000EE;
+	cursor: pointer;
+}
+.modal-content ul li {
+	line-height:12px;
+	padding-bottom:10px;
+}
+.modal-content .mystep3-content .submitButton {
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color:#11367b;
+	color:#fff;
+	border-radius: 50px;
+	font-family: Gotham-BOLD,sans-serif;
+	padding: 25px;
+}
+.modal-content .mystep3-content .step3-cat {
+	font-weight:bold;
+	color: #000;
+}
+.top-line {
+	border-top: 1px solid #000;
+	padding:10px 0;
+}
+
+.modal-content p {
+	font-family: Gotham-Book,sans-serif;
+	font-size: 12px;
+}
+.mystep5 .ratings p {
+	margin:2px;
+}
+.modal-content p strong { 
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.modal-content .mdx {
+	margin: -5px 10px 0 0 ;
+}
+
+.close2 {
+	float:right;color: #0000EE;cursor: pointer;
+}
+
+/* The Close Button */
+.close {
+	color: #777;
+	float: right;
+	font-size: 40px;
+	font-weight: bold;
+	opacity:.6;
+	margin: -15px -10px;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
